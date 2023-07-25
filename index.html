@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Infinite Fabrications</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 </head>
 <body>
 
     <header>
-        <img src="#"> <!--logo-->
+        <img src="img/if-logo.png">
         <ul>
             <li>header link one</li>
             <li>header link two</li>
@@ -18,41 +19,49 @@
     </header>
 
     <div class="banner">
-        <h1>This website is awesome</h1>
-        <p> This website has some subtext that goes here under the main title. It's a smaller front and the color is lower contrast</p>
-        <button>Sign Up</button>
-        <img src="#"> 
+        <div class="inside-banner">
+            <div class="banner-text">
+                <h1>This website is awesome</h1>
+                <p> This website has some subtext that goes here under the main title. It's a smaller front and the color is lower contrast</p>
+                <button>Sign Up</button>
+            </div>
+            <div class="banner-img">
+                <img src="img/fishing.svg"> 
+            </div>
+        </div>
     </div>
 
+    <h2>Some random information.</h2>
+    
     <div class="card-container">
-        <h2>Some random information.</h2>
         <div class="card">
-            <img src="#">
+            <img src="https://randomuser.me/api/portraits/men/7.jpg">
             <h4>This is some subtext under an illustration or image</h4>
         </div>
         <div class="card">
-            <img src="#">
+            <img src="https://randomuser.me/api/portraits/men/11.jpg">
             <h4>This is some subtext under an illustration or image</h4>
         </div>
         <div class="card">
-            <img src="#">
+            <img src="https://randomuser.me/api/portraits/women/11.jpg">
             <h4>This is some subtext under an illustration or image</h4>
         </div>
         <div class="card">
-            <img src="#">
+            <img src="https://randomuser.me/api/portraits/women/10.jpg">
             <h4>This is some subtext under an illustration or image</h4>
         </div>
     </div>
 
     <div class="quote-container">
-        This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice. -Thor, God of Thunder
+        <p class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+        <p class="thor">-Thor, God of Thunder</p>
     </div>
 
     <div class="newsletter">
-        <p>Call to action! It's time!
-            <br>
-            Sign up for our product by clicking that button right over there!
-        </p>
+        <div class="newsletter-text">
+            <p id="call">Call to action! It's time!</p>
+            <p>Sign up for our product by clicking that button right over there!</p>
+        </div>
         <button>Sign up</button>
     </div>
 

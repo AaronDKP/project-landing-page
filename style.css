@@ -1,0 +1,166 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12%;
+    padding-top: 10px;
+}
+
+header img {
+  max-height: 100px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #fff;
+    font-weight: 700;
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+    list-style: none;
+    color: #e5e7eb;
+}
+
+.banner {
+    background-color: #1f2937;
+    padding: 60px 12%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;    
+    justify-content: center;
+    align-items: center;
+}
+
+.inside-banner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.banner-text p {
+    margin: -30px 20px 10px 0;
+}
+
+
+.banner img {
+    width: 300px;
+    padding: 20px;
+}
+
+.banner-text, .banner-image {
+    flex: 1;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.banner, p {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: #1f2937;
+    margin-top: 40px;
+}
+
+h4 {
+    color: #1f2937;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.card-container {
+    padding: 60px 12%;
+    display: flex;
+    gap: 52px;    
+    justify-content: center;
+    margin-top: -40px;
+}
+
+.card {
+    max-width: 200px;
+    text-align: center;
+}
+
+.card img {
+    border: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #3882f6;
+}
+
+.quote-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px 25%;
+    background-color: #e5e7eb;
+}
+
+.quote{
+    display: flex;
+    font-size: 36px;
+    color: #1f2937;
+    margin: 0px;
+    font-style:italic;
+    font-weight: 100;
+}
+
+.thor {
+    display: flex;
+    align-self: flex-start;
+    font-size: 24px;
+    color: #1f2937;
+    margin-left: auto;
+    font-weight: 700;
+}
+
+.newsletter {
+    display: flex;
+    margin: 100px 20%;
+    padding: 50px 80px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter-text p{
+    margin: 5px;
+}
+
+#call {
+    font-weight:900;
+}
+
+button {
+    flex-shrink: 0;
+    border: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #fff;
+    height: 35px;
+}
